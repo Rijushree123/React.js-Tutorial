@@ -28,6 +28,12 @@ const Sdata = [
         imgsrc:"https://cdn.thetealmango.com/wp-content/uploads/2021/06/se-1.jpg" ,
         title:"A Netflix Original Series",
         link:"https://www.netflix.com/in/title/80197526"
+    },
+    {
+        sname:"Friends" ,
+        imgsrc:"https://ftw.usatoday.com/wp-content/uploads/sites/90/2019/04/friends-week.jpg" ,
+        title:"A Netflix Original Series",
+        link:"https://www.netflix.com/in/title/70153404"
     }
 ]
 export default Sdata;
