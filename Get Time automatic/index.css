@@ -1,0 +1,34 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #000405;
+}
+
+.parent{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  padding: 20px;
+  font-size:8.5rem ;
+  border-style:dashed;
+  border-color: white;
+  color: #fff;
+}
+
+/*button{
+  padding: 15px 20px;
+  background: rgb(177, 67, 231);
+  color: white;
+  border: 2px solid #ecf0f1;
+  outline: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}*/
