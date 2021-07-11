@@ -47,23 +47,24 @@ const CreateNote=(props)=>{
             <div className='main_note'>
                 <form>
                     
-                    <input type="text" 
+                {expand?<input type="text" 
                         name="title"
                         value={note.title}
                         onChange={InputEvent} 
                         placeholder="Title" 
                         autoComplete="off"
-                        onClick={expandIt}
-                        onDoubleClick={shrinkIt}
-                        />
-                    {expand?<textarea rows=""
+                        
+                        />:null}
+                    <textarea rows=""
                         name="content" 
                         value={note.content}
                         onChange= {InputEvent}
                         column="" 
-                        placeholder="Write a note"
+                        placeholder="Write a note!"
+                        onClick={expandIt}
+                        onDoubleClick={shrinkIt}
                         >
-                    </textarea>:null}
+                    </textarea>
                     {expand?<Button className="MuiButton-root" onClick={addEvent}>
                         <AddIcon className="plus_sign"/>
                     </Button>:null}
