@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Cuprum&display=swap");
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cuprum", sans-serif;
+}
+
+.setStyle{
+    background-color: #99b898;
+    color: #feceab;
+    height: 90vh;
+    font-size: 8rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 2px 3px firebrick;
+}
+
+.setStyle2{
+    background-color: #01a9b4;
+    color: #086972;
+    height: 90vh;
+    font-size: 8rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 2px 3px firebrick;
+}
+
+.setStyle3{
+    background-color: #3b6978;
+    color: #a6dcef;
+    height: 90vh;
+    font-size: 8rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 2px 3px firebrick;
+}
+
+.menu_style{
+    width: 100%;
+    line-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e84a5f;
+    color: black;
+    text-shadow: 1px 2px 3px #ff847c;
+    
+}
+
+.menu_style a {
+    font-size: 3rem;
+    text-decoration:none;
+    color: black;
+    text-shadow: #ff847c;
+}
+
+.menu_style a :hover{
+    color: #ff847c;
+}
+
+a.menu_link{
+    color: #feceab;
+    font-size: 3 rem;
+}
+
+
+@media(max-width:1100px)
+{    
+    .setStyle h1,
+    .setStyle2 h1,
+    .setStyle3 h1{
+        font-size: 7rem;
+    }
+
+    .setStyle p,
+    .setStyle2 p,
+    .setStyle3 p{
+        font-size: 7rem;
+    }    
+}
+
+@media(max-width:768px)
+{
+    .setStyle,
+    .setStyle2,
+    .setStyle3{
+        height: 80vh;
+    }
+    .setStyle h1,
+    .setStyle2 h1,
+    .setStyle3 h1{
+        font-size: 5rem;
+    }
+
+    .setStyle p,
+    .setStyle2 p,
+    .setStyle3 p{
+        font-size: 3rem;
+    }
+
+    .menu_style{
+        display: block;
+        line-height: rem;
+    }
+    .menu_style a{
+        display: block;
+        text-align: center;
+        font-size: 2rem;
+        border-bottom: 2px solid black;
+    }
+}
