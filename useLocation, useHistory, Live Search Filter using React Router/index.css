@@ -1,0 +1,35 @@
+a{
+    color:#61dafb;
+}
+a.active_class{
+    color:rgb(224, 202, 235);
+    border-bottom: 1px solid red;
+}
+
+.menu_style{
+    width: 100%;
+    line-height: 60px;
+    background-color:#20232a;
+    display: flex;
+    justify-content: space-around;
+}
+
+.searchbar{
+    width:50%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.searchbar input{
+    border-radius: 5px;
+    margin: 30px 0 ;
+    padding: 5px 10px;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New";
+}
+
+.simage{
+    display:flex;
+    justify-content: center;
+    justify-content: center;
+}
