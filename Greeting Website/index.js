@@ -40,4 +40,4 @@ ReactDom.render(
   document.getElementById('root')
 );
 
-#Rijushree
+#Rijushree Guha
